@@ -1,0 +1,57 @@
+
+name: Test Automation Workflow
+
+on:
+schedule: 00 18 * * *
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: maven
+    - name: Running test automation framework with maven
+      run: mvn test
+
+    - name: Upload Test logs
+      if: always()
+      uses: actions/upload-artifact@v4.4.3
+      with:
+      name: Test logs
+      path: logs/
+
+
+    - name: Upload Test report
+      if: always()
+      uses: actions/upload-artifact@v4.4.3
+      with:
+      name: Test logs
+      path: report.html
+
+    - name : Testcase excuted
+      echo : test succes
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
