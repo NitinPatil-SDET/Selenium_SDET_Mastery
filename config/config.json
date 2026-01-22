@@ -1,0 +1,13 @@
+{
+  "environments": {
+    "DEV": {
+      "url": "http://www.google.com"
+    },
+    "QA": {
+      "url": "http://www.google.com"
+    },
+    "UAT": {
+      "url": "http://www.google.com"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+2026-01-21 18:38:15 [main] INFO com.ui.listeners.TestListener Starting test Suite 
+2026-01-21 18:38:20 [TestNG-test-UI Automation Suite-1] INFO com.ui.listeners.TestListener loginCSVTest: Started 
+2026-01-21 18:38:20 [TestNG-test-UI Automation Suite-1] INFO com.ui.listeners.TestListener Verified with the read data from csv file and able to login into application 
+2026-01-21 18:38:20 [TestNG-test-UI Automation Suite-1] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-01-21 18:38:20 [TestNG-test-UI Automation Suite-3] INFO com.ui.listeners.TestListener loginTest: Started 
+2026-01-21 18:38:20 [TestNG-test-UI Automation Suite-3] INFO com.ui.listeners.TestListener Verified with the valid user is able to login into application 
+2026-01-21 18:38:20 [TestNG-test-UI Automation Suite-3] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-01-21 18:38:20 [TestNG-test-UI Automation Suite-1] ERROR com.ui.listeners.TestListener loginCSVTest: Test Failed 
+2026-01-21 18:38:20 [TestNG-test-UI Automation Suite-3] ERROR com.ui.listeners.TestListener loginTest: Test Failed 
+2026-01-21 18:38:20 [TestNG-test-UI Automation Suite-1] ERROR com.ui.listeners.TestListener no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), "Signup / Login")]"}
+  (Session info: chrome=143.0.7499.194)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc44812db45bc6287329441dcfbada19, findElement {value=//a[contains(text(), "Signup / Login")], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.194, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Client\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63320}, goog:processID: 15392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63320/devtoo..., se:cdpVersion: 143.0.7499.194, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc44812db45bc6287329441dcfbada19 
+2026-01-21 18:38:20 [TestNG-test-UI Automation Suite-3] ERROR com.ui.listeners.TestListener no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), "Signup / Login")]"}
+  (Session info: chrome=143.0.7499.194)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [047c1f300cda838b3fd007f749dca17a, findElement {value=//a[contains(text(), "Signup / Login")], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.194, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Client\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63319}, goog:processID: 4924, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63319/devtoo..., se:cdpVersion: 143.0.7499.194, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 047c1f300cda838b3fd007f749dca17a 
+2026-01-21 18:38:23 [TestNG-test-UI Automation Suite-2] INFO com.ui.listeners.TestListener loginExcelTest: Started 
+2026-01-21 18:38:23 [TestNG-test-UI Automation Suite-2] INFO com.ui.listeners.TestListener Verified with the read data from csv file and able to login into application 
+2026-01-21 18:38:23 [TestNG-test-UI Automation Suite-2] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-01-21 18:38:23 [TestNG-test-UI Automation Suite-2] INFO com.ui.listeners.TestListener loginExcelTest: Test Skipped 
+2026-01-21 18:38:25 [TestNG-test-UI Automation Suite-3] INFO com.ui.listeners.TestListener loginTest: Started 
+2026-01-21 18:38:25 [TestNG-test-UI Automation Suite-3] INFO com.ui.listeners.TestListener Verified with the valid user is able to login into application 
+2026-01-21 18:38:25 [TestNG-test-UI Automation Suite-3] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-01-21 18:38:25 [TestNG-test-UI Automation Suite-1] INFO com.ui.listeners.TestListener loginCSVTest: Started 
+2026-01-21 18:38:25 [TestNG-test-UI Automation Suite-1] INFO com.ui.listeners.TestListener Verified with the read data from csv file and able to login into application 
+2026-01-21 18:38:25 [TestNG-test-UI Automation Suite-1] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-01-21 18:38:25 [TestNG-test-UI Automation Suite-3] ERROR com.ui.listeners.TestListener loginTest: Test Failed 
+2026-01-21 18:38:25 [TestNG-test-UI Automation Suite-3] ERROR com.ui.listeners.TestListener no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), "Signup / Login")]"}
+  (Session info: chrome=143.0.7499.194)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f18f8a9ac57aff95f1596239df34ea51, findElement {value=//a[contains(text(), "Signup / Login")], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.194, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Client\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59837}, goog:processID: 20536, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59837/devtoo..., se:cdpVersion: 143.0.7499.194, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f18f8a9ac57aff95f1596239df34ea51 
+2026-01-21 18:38:25 [TestNG-test-UI Automation Suite-1] ERROR com.ui.listeners.TestListener loginCSVTest: Test Failed 
+2026-01-21 18:38:25 [TestNG-test-UI Automation Suite-1] ERROR com.ui.listeners.TestListener no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), "Signup / Login")]"}
+  (Session info: chrome=143.0.7499.194)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4fe94a7c98cffd7d1276451f4b88d3cf, findElement {value=//a[contains(text(), "Signup / Login")], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.194, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Client\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59836}, goog:processID: 17912, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59836/devtoo..., se:cdpVersion: 143.0.7499.194, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fe94a7c98cffd7d1276451f4b88d3cf 
+2026-01-21 18:38:27 [TestNG-test-UI Automation Suite-2] INFO com.ui.listeners.TestListener loginExcelTest: Started 
+2026-01-21 18:38:27 [TestNG-test-UI Automation Suite-2] INFO com.ui.listeners.TestListener Verified with the read data from csv file and able to login into application 
+2026-01-21 18:38:27 [TestNG-test-UI Automation Suite-2] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-01-21 18:38:27 [TestNG-test-UI Automation Suite-2] INFO com.ui.listeners.TestListener loginExcelTest: Test Skipped 
+2026-01-21 18:38:31 [TestNG-test-UI Automation Suite-2] INFO com.ui.listeners.TestListener loginExcelTest: Started 
+2026-01-21 18:38:31 [TestNG-test-UI Automation Suite-2] INFO com.ui.listeners.TestListener Verified with the read data from csv file and able to login into application 
+2026-01-21 18:38:31 [TestNG-test-UI Automation Suite-2] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-01-21 18:38:31 [TestNG-test-UI Automation Suite-2] INFO com.ui.listeners.TestListener loginExcelTest: Test Skipped 
+2026-01-21 18:38:36 [TestNG-test-UI Automation Suite-2] INFO com.ui.listeners.TestListener loginExcelTest: Started 
+2026-01-21 18:38:36 [TestNG-test-UI Automation Suite-2] INFO com.ui.listeners.TestListener Verified with the read data from csv file and able to login into application 
+2026-01-21 18:38:36 [TestNG-test-UI Automation Suite-2] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-01-21 18:38:36 [TestNG-test-UI Automation Suite-2] ERROR com.ui.listeners.TestListener loginExcelTest: Test Failed 
+2026-01-21 18:38:36 [TestNG-test-UI Automation Suite-2] ERROR com.ui.listeners.TestListener no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), "Signup / Login")]"}
+  (Session info: chrome=143.0.7499.194)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a8ed320a8958beafe7362f9e2cdaefa, findElement {value=//a[contains(text(), "Signup / Login")], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.194, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Client\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52349}, goog:processID: 17108, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52349/devtoo..., se:cdpVersion: 143.0.7499.194, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a8ed320a8958beafe7362f9e2cdaefa 
+2026-01-21 18:38:40 [TestNG-test-UI Automation Suite-2] INFO com.ui.listeners.TestListener loginExcelTest: Started 
+2026-01-21 18:38:40 [TestNG-test-UI Automation Suite-2] INFO com.ui.listeners.TestListener Verified with the read data from csv file and able to login into application 
+2026-01-21 18:38:40 [TestNG-test-UI Automation Suite-2] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2026-01-21 18:38:40 [TestNG-test-UI Automation Suite-2] ERROR com.ui.listeners.TestListener loginExcelTest: Test Failed 
+2026-01-21 18:38:40 [TestNG-test-UI Automation Suite-2] ERROR com.ui.listeners.TestListener no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), "Signup / Login")]"}
+  (Session info: chrome=143.0.7499.194)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7294c079f4456efd46f7e94bb11697f7, findElement {value=//a[contains(text(), "Signup / Login")], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.194, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\Client\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53673}, goog:processID: 6556, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53673/devtoo..., se:cdpVersion: 143.0.7499.194, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7294c079f4456efd46f7e94bb11697f7 
